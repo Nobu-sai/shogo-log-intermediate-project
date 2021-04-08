@@ -1,0 +1,23 @@
+/* .faq.section {
+  align-items: space-around;
+} */
+
+.faq__accordion-container {
+  margin-top: 24px;
+  border: 1px solid hsl(0, 0%, 90%); 
+}
+
+.faq__accordion-item {
+  border-top: 1px solid hsl(0, 0%, 80%); 
+  padding: 14px;
+  text-align: center;
+}
+
+.faq__accordion-item:first-child {
+  border-top: none;
+}
+
+.faq__accordion-answer {
+  background-color: hsl(0, 0%, 90%);
+
+}

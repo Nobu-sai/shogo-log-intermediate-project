@@ -1,0 +1,40 @@
+
+
+.post-container {
+  margin-top: 48px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.post {
+  box-shadow: 0 4px 4px hsl(0, 0%, 70%);
+  width: 30%; 
+  height: 20%;
+  min-height: 300px;
+  background-color: #fff;
+}
+
+.post-img {
+  background-color: cornflowerblue;
+  height: 20%;
+  min-height: 200px;
+  
+}
+
+.post-content {
+  padding: 14px;
+  min-height: 100px;
+}
+
+.post-title {
+  height: 70%;
+  min-height: 70px;
+  text-align: center;
+}
+
+.post-data {
+  text-align: right;
+}
