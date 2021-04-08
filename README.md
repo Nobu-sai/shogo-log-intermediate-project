@@ -1,25 +1,37 @@
 
+# TOC
+## Styles
+### class Attribute Naming
+### File
+### Font Family
+### Font Size
+#### By roles
+#### By class 
+### Properties
+### Spacing 
+## Block
 
-###### Styles
-#### class Attribute Naming
+
+# Styles
+## class Attribute Naming
 : BEM
 Flexbox
 : SECTION-NAME__flex-container
 : SECTION-NAME__flex-item
 
-#### Files
+## Files
 style.css
 = For COMMUNAL styles.
 
 COMPONENT.css
 = For each page components.
-#### Font Family
+## Font Family
 Google Font/Noto Sans JP
   Ref: https://fonts.google.com/specimen/Noto+Sans+JP?query=Noto+sans+jp&preview.text=%E4%BC%9A%E3%81%86%E6%97%A5%E3%83%92%E3%83%92&preview.text_type=custom#standard-styles
 
-#### Font Size
+## Font Size
 * In the 1440px screens.
-## By roles
+### By roles
 Base = 14px
 
 Titles
@@ -28,7 +40,7 @@ Titles
   Middle = 28px;
   Small = 24px;
 
-## By class 
+### By class 
 .section-title
   = For ALL the titles in FIVE big sections. ()
   : font-size: 24px:
@@ -41,7 +53,7 @@ Titles
 .feature-title
   : 18px;
 
-#### Properties
+## Properties
 box-shadow
   : 0 4px 4px hsl(0, 0%, 70%);
   faq section
@@ -52,19 +64,19 @@ border
 border-radius
   : 8px;
 
-#### Spacing 
-Inside a section
-  margin-top
-    : 48px
-    : 24px
-
-#### z-index
+z-index
 .header
   : 100;     
 .top__item
   : 10
 
-### Blocks
+## Spacing 
+Inside a section
+  margin-top
+    : 48px
+    : 24px
+
+# Blocks
 Button
   <div class="button">
     What it is
