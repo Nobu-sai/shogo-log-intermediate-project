@@ -27,9 +27,16 @@
     <link rel="stylesheet" href="./css/footer.css">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery/Plugins -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div class="header">
+    <!-- Header -->
+    <div 
+      class="header" 
+      
+      data-aos="fade-down"
+     >
       <div class="header__item">
         <div class="logo"></div>
         <div class="header__title">ユアコーディング</div>
@@ -47,8 +54,13 @@
         <div class="button">お問い合わせ</div>
       </div>
     </div>
-
-      <div class="top">
+      
+      <!-- Top -->
+      <div 
+        class="top"
+        data-aos="fade-up" 
+        data-aos-duration="1000"        
+      >
         <div class="top__item top__item_left">
             <div class="top-title">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -68,37 +80,101 @@
 
       </div>
 
-      <div class="features">
-        <div class="section-title">
+      <!-- Features -->
+      <div 
+        class="features"        
+       >
+        <div 
+          class="section-title"
+          data-aos="fade-up"
+        >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         </div>
-        <div class="section-title__sub">Feature</div>
-        <div class="feature">
-          <div class="feature__main-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div 
+          class="section-title__sub"
+          data-aos="fade-up"
+        >
+          Feature
+        </div>
+        <div 
+          class="feature"
+          
+        >
+          <div 
+            class="feature__main-title"
+            data-aos="fade-up"            
+          
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
 
-          <div class="feature__flex-container">
-            <div class="feature__flex-item feature__img-1"></div>
-            <div class="feature__flex-item">
+          <div 
+            class="feature__flex-container"
+          >
+            <div 
+              class="feature__flex-item feature__img-1"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            ></div>
+            <div 
+              class="feature__flex-item"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div class="feature__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, beatae?</div>
               <div class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nulla praesentium doloribus optio obcaecati possimus maiores sunt, excepturi eum ducimus vitae nostrum adipisci similique a officiis omnis dignissimos quidem aspernatur.</div>
             </div>
           </div>
         </div>
-        <div class="feature">
-          <div class="feature__main-title">Lorem ipsum dolor sit amet </div>
-          <div class="feature__flex-container">
-            <div class="feature__flex-item">
+        <div 
+          class="feature"
+          data-aos="fade-up"
+         >
+          <div 
+            class="feature__main-title"
+            data-aos="fade-up"            
+          >
+            Lorem ipsum dolor sit amet 
+          </div>
+          <div 
+            class="feature__flex-container"    
+          >
+            <div 
+              class="feature__flex-item"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div class="feature__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, beatae?</div>
               <div class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nulla praesentium doloribus optio obcaecati possimus maiores sunt, excepturi eum ducimus vitae nostrum adipisci similique a officiis omnis dignissimos quidem aspernatur.</div>
             </div>
-            <div class="feature__flex-item feature__img-2"></div>
+            <div 
+              class="feature__flex-item feature__img-2"
+              data-aos="fade-up"
+              data-aos-delay="100" 
+            ></div>
           </div>
         </div>
-        <div class="feature">
-          <div class="feature__main-title">Lorem ipsum dolor </div>
-          <div class="feature__flex-container">
-            <div class="feature__flex-item feature__img-3"></div>
-            <div class="feature__flex-item">
+        <div 
+          class="feature"
+          data-aos="fade-up"
+         >
+          <div 
+            class="feature__main-title"
+            data-aos="fade-up"            
+          >
+            Lorem ipsum dolor 
+          </div>
+          <div 
+            class="feature__flex-container"
+          >
+            <div 
+              class="feature__flex-item feature__img-3"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            ></div>
+            <div 
+              class="feature__flex-item"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div class="feature__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, beatae?</div>
               <div class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nulla praesentium doloribus optio obcaecati possimus maiores sunt, excepturi eum ducimus vitae nostrum adipisci similique a officiis omnis dignissimos quidem aspernatur.</div>
             </div>
@@ -106,13 +182,25 @@
         </div>
       </div>  
 
+      <!-- Price -->
       <div class="price section">
-        <div class="section__content">
-          <div class="section-title">価格</div>
+        <div 
+          class="section__content"
+          data-aos="fade-up"          
+        >
+          <div 
+            class="section-title"            
+          >
+            価格
+          </div>
           <div class="section-title__sub">Price</div>
         </div>
        
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up"     
+          data-aos-delay="100"     
+        >
           <div class="price__flex-container">
               <div class="price-category price__flex-item">
                 loren ca
@@ -145,59 +233,69 @@
         </div>
       </div>
 
+      <!-- FAQ -->
       <div class="faq section">
 
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up" 
+        >
           <div class="section-title">よくある質問</div>
           <div class="section-title__sub">FAQ</div>
         </div>
-        <div class="section__content">
+
+        <div 
+          class="section__content"
+          data-aos="fade-up"       
+          data-aos-delay="100"   
+        >
           
-        </div>
-        <div class="faq__accordion-container">
-          <!-- <div class="faq__accordion faq__accordion-1"> -->
-            <div class="faq__accordion-question faq__accordion-item currentBtn" href=".faq__accordion-1">
-              lorem Lorem ipsum dolor sit amet,
-            </div>
-            <div class="faq__accordion faq__accordion-1 faq__accordion-item current">
-              <div class="faq__accordion-answer">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+          <div class="faq__accordion-container">
+              <div class="faq__accordion-question faq__accordion-item currentBtn" href=".faq__accordion-1">
+                lorem Lorem ipsum dolor sit amet,
               </div>
-            </div>
-          <!-- </div> -->
-          <!-- <div class="faq__accordion faq__accordion-2"> -->
-            <div class="faq__accordion-question faq__accordion-item" href=".faq__accordion-2">
-              lorem Lorem ipsum dolor sit amet,
-            </div>
-            <div class="faq__accordion faq__accordion-2 faq__accordion-item">
-              <div class="faq__accordion-answer">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+              <div class="faq__accordion faq__accordion-1 faq__accordion-item current">
+                <div class="faq__accordion-answer">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                </div>
               </div>
-            </div>
-          <!-- </div> -->
-          <!-- <div class="faq__accordion faq__accordion-3"> -->
-            <div class="faq__accordion-question faq__accordion-item" href=".faq__accordion-3"> 
-              lorem Lorem ipsum dolor sit amet,
-            </div>
-            <div class="faq__accordion faq__accordion-3 faq__accordion-item">
-              <div class="faq__accordion-answer">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+              <div class="faq__accordion-question faq__accordion-item" href=".faq__accordion-2">
+                lorem Lorem ipsum dolor sit amet,
               </div>
-            </div>
-          <!-- </div> -->
+              <div class="faq__accordion faq__accordion-2 faq__accordion-item">
+                <div class="faq__accordion-answer">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                </div>
+              </div>
+              <div class="faq__accordion-question faq__accordion-item" href=".faq__accordion-3"> 
+                lorem Lorem ipsum dolor sit amet,
+              </div>
+              <div class="faq__accordion faq__accordion-3 faq__accordion-item">
+                <div class="faq__accordion-answer">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                </div>
+              </div>
+          </div>
         </div>
       </div>
 
-
+      <!-- Blog -->
       <div class="blog section">
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up"          
+        >
           <div class="section-title">ブログ</div>
           <div class="section-title__sub">Blog</div>
         </div>
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up"   
+          data-aos-delay="100"  
+        >
           <div class="post-container">
             <div class="post">
               <div class="post-img"></div>
@@ -224,13 +322,21 @@
         </div>
       </div>
 
+      <!-- Works -->
       <div class="works section">
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up"     
+        >
           <div class="section-title">制作実績</div>
           <div class="section-title__sub">Works</div>
         </div>
         
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up"     
+          data-aos-delay="100"
+        >
           <div class="works-bg">
             <div class="works-container">
               <div class="work">
@@ -316,13 +422,21 @@
         </div>
       </div>
 
+      <!-- Contact -->
       <div class="contact section">
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up"     
+        >
           <div class="section-title">お問い合わせ</div>
           <div class="section-title__sub">Contact</div>
         </div>
 
-        <div class="section__content">
+        <div 
+          class="section__content"
+          data-aos="fade-up"     
+          data-aos-delay="100"
+        >
           <div class="contact__message">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
           <div class="contact__form">
             <form action="">
@@ -358,7 +472,10 @@
         </div>
       </div>
 
-      <div class="footer">
+      <div 
+        class="footer"
+        data-aos="fade-up"     
+      > 
   
           <div class="footer__title">
             ユアコーディング
@@ -376,6 +493,12 @@
       </div>
 
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./index.js"></script>
     <script src="./faq/faq.js"></script>
   </body>
 </html>

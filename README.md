@@ -1,5 +1,7 @@
 * Explanations for each functionality (like logic) in Components section. 
 # TOC
+## Information
+### Used Plugins
 ## Styles 
 ### class Attribute Naming
 ### File
@@ -15,6 +17,12 @@
 ### Elements
 #### faq__accordion
 
+
+# ------------------------------
+# Information
+## Used Plugins
+: Emerging animaiton = AOS.js
+: Slider = 
 
 # Styles
 ## class Attribute Naming
