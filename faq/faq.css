@@ -9,15 +9,30 @@
 
 .faq__accordion-item {
   border-top: 1px solid hsl(0, 0%, 80%); 
-  padding: 14px;
-  text-align: center;
 }
+
 
 .faq__accordion-item:first-child {
   border-top: none;
 }
 
+.faq__accordion-question,
 .faq__accordion-answer {
+  padding: 14px;
+  text-align: center;
+}
+
+.faq__accordion {  
   background-color: hsl(0, 0%, 90%);
 
+  overflow: scroll;
 }
+
+.faq__accordion.current {
+  height: 50px;
+}
+
+.faq__accordion-answer {
+  height: 100%;
+}
+

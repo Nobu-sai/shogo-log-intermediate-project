@@ -8,7 +8,7 @@
     <link rel="icon" 
       type="image/png" 
       href="./favicon.ico">
-    <title>Document</title>
+    <title>しょーごログ　中級</title>
     <!-- Assets -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"
@@ -20,11 +20,13 @@
     <link rel="stylesheet" href="./css/top.css">
     <link rel="stylesheet" href="./css/features.css">
     <link rel="stylesheet" href="./css/price.css">
-    <link rel="stylesheet" href="./css/faq.css">
+    <link rel="stylesheet" href="./faq/faq.css">
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/works.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="header">
@@ -153,24 +155,39 @@
           
         </div>
         <div class="faq__accordion-container">
-          <div class="faq__accordion-question faq__accordion-item">
-            lorem Lorem ipsum dolor sit amet,
-          </div>
-          <div class="faq__accordion-answer faq__accordion-item">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
-          </div>
-          <div class="faq__accordion-question faq__accordion-item">
-            lorem Lorem ipsum dolor sit amet,
-          </div>
-          <div class="faq__accordion-answer faq__accordion-item">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
-          </div>
-          <div class="faq__accordion-question faq__accordion-item">
-            lorem Lorem ipsum dolor sit amet,
-          </div>
-          <div class="faq__accordion-answer faq__accordion-item">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
-          </div>
+          <!-- <div class="faq__accordion faq__accordion-1"> -->
+            <div class="faq__accordion-question faq__accordion-item currentBtn" href=".faq__accordion-1">
+              lorem Lorem ipsum dolor sit amet,
+            </div>
+            <div class="faq__accordion faq__accordion-1 faq__accordion-item current">
+              <div class="faq__accordion-answer">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+              </div>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="faq__accordion faq__accordion-2"> -->
+            <div class="faq__accordion-question faq__accordion-item" href=".faq__accordion-2">
+              lorem Lorem ipsum dolor sit amet,
+            </div>
+            <div class="faq__accordion faq__accordion-2 faq__accordion-item">
+              <div class="faq__accordion-answer">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+              </div>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="faq__accordion faq__accordion-3"> -->
+            <div class="faq__accordion-question faq__accordion-item" href=".faq__accordion-3"> 
+              lorem Lorem ipsum dolor sit amet,
+            </div>
+            <div class="faq__accordion faq__accordion-3 faq__accordion-item">
+              <div class="faq__accordion-answer">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ad sunt, hic repellendus doloremque 
+              </div>
+            </div>
+          <!-- </div> -->
         </div>
       </div>
 
@@ -359,5 +376,6 @@
       </div>
 
     </div>
+    <script src="./faq/faq.js"></script>
   </body>
 </html>

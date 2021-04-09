@@ -1,6 +1,6 @@
-
+* Explanations for each functionality (like logic) in Components section. 
 # TOC
-## Styles
+## Styles 
 ### class Attribute Naming
 ### File
 ### Font Family
@@ -9,7 +9,11 @@
 #### By class 
 ### Properties
 ### Spacing 
-## Block
+
+## Components
+### Block
+### Elements
+#### faq__accordion
 
 
 # Styles
@@ -76,9 +80,17 @@ Inside a section
     : 48px
     : 24px
 
-# Blocks
+# Components
+## Blocks
 Button
   <div class="button">
     What it is
     : Has the styling for all three buttons. 
-  
+
+## Elements
+
+### faq__accordion 
+: Listen to the .faq__accordion-question Click Event
+-> Get it's href Attribute (has the class name to open the accordion).
+-> Get the accordion to open (One of .faq__accordion-answer) with the class Name. 
+--> Change the height. 
