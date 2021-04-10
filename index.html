@@ -8,7 +8,7 @@
     <link rel="icon" 
       type="image/png" 
       href="./favicon.ico">
-    <title>しょーごログ　中級</title>
+    <title>ユアコーディング</title>
     <!-- Assets -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"
@@ -20,11 +20,14 @@
     <link rel="stylesheet" href="./css/top.css">
     <link rel="stylesheet" href="./css/features.css">
     <link rel="stylesheet" href="./css/price.css">
-    <link rel="stylesheet" href="./faq/faq.css">
+    <link rel="stylesheet" href="./components/faq/faq.css">
     <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="./css/works.css">
+    <link rel="stylesheet" href="./components/works/works.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- jQuery/Plugins -->
@@ -323,6 +326,7 @@
       </div>
 
       <!-- Works -->
+
       <div class="works section">
         <div 
           class="section__content"
@@ -331,95 +335,135 @@
           <div class="section-title">制作実績</div>
           <div class="section-title__sub">Works</div>
         </div>
-        
+
+          
         <div 
           class="section__content"
           data-aos="fade-up"     
           data-aos-delay="100"
         >
-          <div class="works-bg">
-            <div class="works-container">
-              <div class="work">
-                <div class="work-img"></div>
-                <div class="work-content">
-                  <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="work-desc">
-                    lorem
-                    sfdsdafsadf
-                    asdfgfd
-                  </div>
-                </div>
-              </div>
-              <div class="work">
-                <div class="work-img"></div>
-                <div class="work-content">
-                  <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="work-desc">
-                    lorem
-                    sfdsdafsadf
-                    sfdsfd
-                  </div>
-                </div>
-              </div>
-              <div class="work">
-                <div class="work-img"></div>
-                <div class="work-content">
-                  <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="work-desc">
-                    lorem
-                    sfdsdafsadf
-                    dfdfg
-                  </div>
-                </div>
-              </div> 
-              <div class="work">
-                <div class="work-img"></div>
-                <div class="work-content">
-                  <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="work-desc">
-                    lorem
-                    sfdsdafsadf
-                    dfdfg
-                  </div>
-                </div>
-              </div>
-              <div class="work">
-                <div class="work-img"></div>
-                <div class="work-content">
-                  <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="work-desc">
-                    lorem
-                    sfdsdafsadf
-                    dfdfg
-                  </div>
-                </div>
-              </div>
-              <div class="work">
-                <div class="work-img"></div>
-                <div class="work-content">
-                  <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="work-desc">
-                    lorem
-                    sfdsdafsadf
-                    dfdfg
-                  </div>
-                </div>
-              </div>
-              <div class="work">
-                <div class="work-img"></div>
-                <div class="work-content">
-                  <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
-                  <div class="work-desc">
-                    lorem
-                    sfdsdafsadf
-                    dfdfg
-                  </div>
-                </div>
-              </div>
 
+          <div class="works-bg">
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Swiper -->
+                <!-- <div class=" swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div> -->
+
+                <div class="swiper-slide">
+                    <div class="work">
+                      <div class="work-img"></div>
+                      <div class="work-content">
+                        <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="work-desc">
+                          lorem
+                          sfdsdafsadf
+                          asdfgfd
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  <div class="swiper-slide">
+                    <div class="work">
+                      <div class="work-img"></div>
+                      <div class="work-content">
+                        <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="work-desc">
+                          lorem
+                          sfdsdafsadf
+                          sfdsfd
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="work">
+                      <div class="work-img"></div>
+                      <div class="work-content">
+                        <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="work-desc">
+                          lorem
+                          sfdsdafsadf
+                          dfdfg
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="work">
+                      <div class="work-img"></div>
+                      <div class="work-content">
+                        <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="work-desc">
+                          lorem
+                          sfdsdafsadf
+                          dfdfg
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="work">
+                      <div class="work-img"></div>
+                      <div class="work-content">
+                        <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="work-desc">
+                          lorem
+                          sfdsdafsadf
+                          dfdfg
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="work">
+                      <div class="work-img"></div>
+                      <div class="work-content">
+                        <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="work-desc">
+                          lorem
+                          sfdsdafsadf
+                          dfdfg
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="work">
+                      <div class="work-img"></div>
+                      <div class="work-content">
+                        <div class="work-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="work-desc">
+                          lorem
+                          sfdsdafsadf
+                          dfdfg
+                        </div>
+                      </div>
+                    </div>    
+                  </div>
+
+              </div>
+              
+              <!-- If we need pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+            
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev"></div> -->
+              <!-- <div class="swiper-button-next"></div> -->
+            
+              <!-- If we need scrollbar -->
+              <!-- <div class="swiper-scrollbar"></div> -->
             </div>
+            <!-- .swiper-container -->
+           
           </div> 
+          <!-- .works-bg -->
+
         </div>
+        <!-- .section__contents -->
+
       </div>
 
       <!-- Contact -->
@@ -498,7 +542,10 @@
     <script>
       AOS.init();
     </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
-    <script src="./faq/faq.js"></script>
+    <script src="./components/faq/faq.js"></script>
+    <script src="./components/works/works.js"></script>
   </body>
 </html>

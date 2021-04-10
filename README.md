@@ -22,6 +22,10 @@
 # Information
 ## Used Plugins
 : Emerging animaiton = AOS.js
+  Instruction
+  : https://github.com/michalsnik/aos
+  Demo
+  : https://michalsnik.github.io/aos/
 : Slider = 
 
 # Styles
