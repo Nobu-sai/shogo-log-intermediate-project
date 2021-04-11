@@ -1,6 +1,5 @@
 
 $(document).ready(function () {
-  console.log("hey")
   const swiper = new Swiper('.swiper-container', {
     // Optional parameters
     autoplay: {
