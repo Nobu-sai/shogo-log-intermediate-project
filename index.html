@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./components/faq/faq.css">
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./components/works/works.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./components/contact/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
@@ -65,9 +65,9 @@
         data-aos-duration="1000"        
       >
         <div class="top__item top__item_left">
-            <div class="top-title">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </div>
+          <div class="top-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </div>
           <div class="top-title__sub">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
             commodi nemo nostrum cupiditate eos saepe odio officiis quas, est
@@ -77,9 +77,10 @@
           <div class="button button_contact">お問い合わせ</div>
         </div>
 
-        <div class="top__item main-img"></div> 
+        <div class="top__item top__item-right main-img"></div> 
 
         <div class="circle-img"></div>
+          <!-- Position-absolute to div.top -->
 
       </div>
 
@@ -467,6 +468,8 @@
       </div>
 
       <!-- Contact -->
+      <!-- .form__element
+      = The DIRECT Children Elements of the .form -->
       <div class="contact section">
         <div 
           class="section__content"
@@ -482,35 +485,51 @@
           data-aos-delay="100"
         >
           <div class="contact__message">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
-          <div class="contact__form">
-            <form action="">
 
-               <div class="contact__form-element contact__form-element-title">
-                 <div class="contact__form-title">Lorem</div>
-                 <div class="contact__form-necessity">必須</div>
-                </div>
-               <input class="contact__form-input contact__form-element" type="text">
-                 
-               <div class="contact__form-element contact__form-element-title">
-                 <div class="contact__form-title">Lorem</div>
-                 <div class="contact__form-necessity">必須</div>
-                </div>
-               <input class="contact__form-input contact__form-element" type="text">
+          <div class="form">
+            <form class="form__tag">
 
-               <div class="contact__form-element contact__form-element-title">
-                 <div class="contact__form-title">Lorem</div>
-                 <div class="contact__form-necessity">必須</div>
+               <div class="form__element form__name">
+                <div class="form__category">
+                  <div class="form__title">お名前</div>
+                  <div class="form__necessity">必須</div>
                 </div>
-               <textarea class="contact__form-textarea contact__form-element" type="text"></textarea>
-
-               <div class="contact__form-confirmation contact__form-element">
-                <div class="contact__form-concent">
-                  <input class="contact__form-checkbox" type="checkbox" name="concent" id="">  
-                  <label for="concent contact__form-element">Lorem ipsum dolor sit amet consectetur adipisicing elit. </label>
-                </div>
-                <div class="button contact__form-submit-button">送信する</div>
+                <div class="alert">ALERT</div> 
+                <input class="form__input" name="entry.1122363864" type="text" placeholder="お名前" required>
+               </div>
+               
+              <div class="form__element form__email">
+                <div class="form__category">
+                    <div class="form__title">メールアドレス</div>
+                    <div class="form__necessity">必須</div>
+                  </div>
+                <div class="alert">lorem lorem</div>
+                <input class="form__input" name="entry.967531177" type="text" placeholder="メールアドレス">
               </div>
+
+              <div class="form__element form__contact-contents">
+                <div class=" form__category">
+                    <div class="form__title">お問い合わせ内容</div>
+                    <div class="form__necessity">必須</div>
+                  </div>
+                <div class="alert">lorem lorem</div>
+                <textarea class="form__textarea" name="entry.1128790241" type="text" placeholder="お問い合わせ内容"></textarea>
+              </div>
+              
+               <div class="form__element form__confirmation">
+                <div class="form__concent">
+                  <div class="alert">プライバシーポリシーをお読みの上、ご同意下さい。</div>
+                  <input class="form__concent-checkbox" type="checkbox" name="concent" id="">  
+                  <label for="concent">Lorem ipsum dolor sit amet consectetur adipisicing elit. </label>
+                </div>
+                <button class="button form__submit-button">送信する</button>
+              </div>
+
             </form>
+            <div class="form__message form__message_success">お問い合わせありがとうございました</div>
+            <div class="form__message form__fmessage_failure">こちらのミスで、送信失敗がしてしまいました。申し訳ございません。お手数ですが、下記URL（Google Form）へおいで頂き、もう一度ご入力をお願いいたします。
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSelP16H_PdBaBWGz1WydYgQQvCUl-voaSxtsM-rsfCBw5lkAA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSelP16H_PdBaBWGz1WydYgQQvCUl-voaSxtsM-rsfCBw5lkAA/viewform</a>  
+            </div>
           
           </div>
         </div>
@@ -548,5 +567,6 @@
     <script src="./components/button/button.js"></script>
     <script src="./components/faq/faq.js"></script>
     <script src="./components/works/works.js"></script>
+    <script src="./components/contact/contact.js"></script>
   </body>
 </html>

@@ -9,33 +9,33 @@
   background: linear-gradient(90deg, hsl(192, 50%, 30%), hsl(192, 80%, 60%));
 }
 
-.contact__message,
-.contact__form,
-.contact__form-element,
-.contact__form-submit-button {
+.message,
+.form,
+.form__element,
+.form__submit-button,
+.form__input,
+.form__textarea {
   margin-top: 32px;
 }
 
-.contact__form {
-  width: 60%;
-}
 
-.contact__form-element:first-child {
+.form__element:first-child {
   margin-top: 0;
 }
 
-.contact__form {
+.form {
   padding: 32px 48px;
+  width: 60%;
   background-color: #fff;
   color: #000;
 }
 
-.contact__form-element-title {
+.form__category {
   display: flex;
   align-items: center;
 }
 
-.contact__form-necessity {
+.form__necessity {
   margin-left: 24px;
   border-radius: 10px;
   padding: 4px 8px;
@@ -43,26 +43,39 @@
   color: #fff;
 }
 
-.contact__form-input,
-.contact__form-textarea {
+.alert {
+  color: red;
+}
+
+.form__concent .alert {
+  text-align: center;
+}
+
+.form__input,
+.form__textarea {
   border: none;
   background-color: hsl(189, 85%, 92%);
 }
 
-.contact__form-input {
+.form__input {
   width: 70%;
   height: 50px;
 }
 
-.contact__form-textarea {
+.form__textarea {
   width: 100%;
   height: 150px;
   resize: none;
 }
 
-.contact__form-confirmation {
+.form__confirmation {
   /* text-align: center; */
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+.form__message {
+  display: none;
 }
