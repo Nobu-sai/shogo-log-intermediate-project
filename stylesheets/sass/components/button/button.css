@@ -1,0 +1,24 @@
+.button {
+  border: none;
+  /* For <button> INSIDE <form> */
+  border-radius: 8px;
+  padding: 4px 0;
+  width: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#785292), to(#aa38c7));
+  background: linear-gradient(90deg, #785292, #aa38c7);
+  color: #fff;
+}
+
+.button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=button.css.map */

@@ -12,19 +12,9 @@
     <!-- Assets -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"
-    <!-- Styles/Communal -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./components/button/button.css" />
-    <!-- Styles/Components -->
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/top.css">
-    <link rel="stylesheet" href="./css/features.css">
-    <link rel="stylesheet" href="./css/price.css">
-    <link rel="stylesheet" href="./components/faq/faq.css">
-    <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="./components/works/works.css">
-    <link rel="stylesheet" href="./components/contact/contact.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./stylesheets/sass/main.css">
+    <!-- <link rel="stylesheet" href="./stylesheets/sass/layout/header/header.css"> -->
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -33,7 +23,7 @@
     <!-- jQuery/Plugins -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body>
+  <body class="page">
     <!-- Header -->
     <div 
       class="header" 
@@ -79,14 +69,16 @@
 
         <div class="top__item top__item-right main-img"></div> 
 
-        <div class="circle-img"></div>
-          <!-- Position-absolute to div.top -->
+        <div class="circle-img-container">
+          <div class="circle-img"></div>
+        </div>
+            <!-- Position-absolute to div.top -->
 
       </div>
 
       <!-- Features -->
       <div 
-        class="features"        
+        class="features section"        
        >
         <div 
           class="section-title"
@@ -106,9 +98,10 @@
         >
           <div 
             class="feature__main-title"
-            data-aos="fade-up"            
-          
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            data-aos="fade-up"                      
+          > 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </div>
 
           <div 
             class="feature__flex-container"
@@ -564,9 +557,9 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
-    <script src="./components/button/button.js"></script>
-    <script src="./components/faq/faq.js"></script>
-    <script src="./components/works/works.js"></script>
-    <script src="./components/contact/contact.js"></script>
+    <script src="./scripts/button/button.js"></script>
+    <script src="./scripts/faq/faq.js"></script>
+    <script src="./scripts/works/works.js"></script>
+    <script src="./scripts/contact/contact.js"></script>
   </body>
 </html>
