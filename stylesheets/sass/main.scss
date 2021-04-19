@@ -1,34 +1,26 @@
-
-
 // utilities
+@import './utilities/mixins/image';
+
 // vendors
 
 // base
 
 // layout
-@import './layout/page/page.scss';
-@import './layout/header/header';
-@import './layout/top/top.scss';
-@import './layout/features/features.scss';
-@import './layout/price/price.scss';
-@import './layout/faq/faq.scss';
-@import './layout/blog/blog.scss';
-@import './layout/works/works.scss';
-@import './layout/contact/contact.scss';
-@import './layout/footer/footer.scss';
+@import "./layout/page/page.scss";
+@import "./layout/header/header";
+@import "./layout/top/top";
+@import "./layout/features/features.scss";
+@import "./layout/price/price.scss";
+@import "./layout/faq/faq.scss";
+@import "./layout/blog/blog.scss";
+@import "./layout/works/works.scss";
+@import "./layout/contact/contact.scss";
+@import "./layout/footer/footer.scss";
 
 // components
-@import './components/button/button.scss';
-@import './components/form/form.scss';
+@import "./components/button/button.scss";
+@import "./components/form/form.scss";
 
 // pages
 
 // themes
-
-// @use 'assets-paths';
-// @debug #{assets-paths.setImagePath("logo")};
-// @debug 'Asset Path #{assets-paths.$assetPath}';
-// @debug #{assets-paths.setAssetPath()};
-// $assetPath: "Should be the path: #{asset-path.setAssetPath()}";
-// @debug $assetPath;
-// @debug #{assets-paths}

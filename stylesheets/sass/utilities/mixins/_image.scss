@@ -1,0 +1,7 @@
+
+
+@mixin image($img-name) {
+  background-image: url(../../assets/img/#{$img-name}.png);
+  // From the Manifest File. 
+}
+

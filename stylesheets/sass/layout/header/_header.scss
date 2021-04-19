@@ -1,6 +1,6 @@
-@use 'assets-paths';
 
-@debug #{assets-paths.setAssetPath()};
+@use '../../utilities/mixins/image';
+
 
 .header {
   position: fixed;
@@ -31,7 +31,6 @@
 
 .header-menu__item {
   margin-left: 18px;
-  /* flex: 0.5; */
   
   display: flex;
   justify-content: center;
@@ -43,11 +42,9 @@
 
 
 .logo {
+  @include image("logo");
   height: 50px;
   width: 50px;
-  background-image: url('../../../../assets/img/logo.png');
-  // background-image: url(assets-paths.setImagePath("logo"));
-  // @debug bold; 
   background-position: center;
   background-size: cover;
 }
