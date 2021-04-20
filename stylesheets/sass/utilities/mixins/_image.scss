@@ -1,7 +1,8 @@
-
-
 @mixin image($img-name) {
-  background-image: url(../../assets/img/#{$img-name}.png);
-  // From the Manifest File. 
+  // .logo {
+    background-image: url(../../assets/img/#{$img-name}.png);
+    // From the Manifest File.
+  // }
 }
 
+// $Variable: url(../../assets/img/#{$img-name}.png);
