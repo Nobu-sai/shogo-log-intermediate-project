@@ -1,25 +1,25 @@
 // utilities
-// @import "./utilities/mixins/image";
+// @import './utilities/mixins/images';
 
 // vendors
 
 // base
 
 // layout
-@import "./layout/page/page.scss";
+@import "./layout/page/page";
 @import "./layout/header/header";
 @import "./layout/top/top";
-@import "./layout/features/features.scss";
-@import "./layout/price/price.scss";
-@import "./layout/faq/faq.scss";
-@import "./layout/blog/blog.scss";
-@import "./layout/works/works.scss";
-@import "./layout/contact/contact.scss";
-@import "./layout/footer/footer.scss";
+@import "./layout/features/features";
+@import "./layout/price/price";
+@import "./layout/faq/faq";
+@import "./layout/blog/blog";
+@import "./layout/works/works";
+@import "./layout/contact/contact";
+@import "./layout/footer/footer";
 
 // components
-@import "./components/button/button.scss";
-@import "./components/form/form.scss";
+@import "./components/button/button";
+@import "./components/form/form";
 
 // pages
 

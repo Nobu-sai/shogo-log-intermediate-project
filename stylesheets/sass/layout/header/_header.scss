@@ -1,5 +1,10 @@
-@use '../../utilities/mixins/image' as *;
+// @use '../../utilities/mixins/image' as *;
+@use '../../utilities/mixins/images';
+// @use '../../utilities/mixins/_images.scss';
+// @use 'images';
+// @use '../../utilities/mixins/images' as i;
 
+// $image-path: image.image();
 // @mixin image($img-name) {
 //   // .logo {
 //   background-image: url(../../assets/img/#{$img-name}.png);
@@ -44,11 +49,17 @@
   }
 }
 
-// @include image.image("logo");
-
+// $Variable: url(../../assets/img/logo.png);
 .logo {
-  @include image("logo");
+  // @include image("logo");
+  // @include image{image("logo")};
   // background-image: #{image.Variable};
+  @include images.background-image("logo");
+  // @import "../../utilities/mixins/images";
+  // @include i.background-image();
+  // background-image: #{i.Variable};
+  // background-image: #{$Variable};
+  // background-image: url(../../assets/img/logo.png);
   height: 50px;
   width: 50px;
   background-position: center;

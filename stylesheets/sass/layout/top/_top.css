@@ -1,12 +1,8 @@
-// @use '../../utilities/mixins/image';
-
 .top {
   margin-top: 100px;
   display: flex;
-
   width: 100%;
   height: 700px;
-
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -19,7 +15,6 @@
   /* flex: 1; */
   width: 30%;
   /* height: 60%; */
-
   z-index: 10;
 }
 
@@ -49,9 +44,6 @@
   /* margin-bottom: 10%; */
   /* width = 30% as .top__item */
   height: 500px;
-
-  // background-image: url('../../assets/img/main.png');
-  // @include image("main");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

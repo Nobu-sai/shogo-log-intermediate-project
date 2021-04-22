@@ -26,7 +26,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .header-menu__item:first-child {
   margin-left: 0;
 }
@@ -46,3 +45,5 @@
   align-items: center;
   font-size: 24px;
 }
+
+/*# sourceMappingURL=_header.css.map */

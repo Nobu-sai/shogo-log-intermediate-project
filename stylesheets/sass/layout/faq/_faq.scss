@@ -1,0 +1,38 @@
+/* .faq.section {
+  align-items: space-around;
+} */
+
+.faq__accordion-container {
+  margin-top: 24px;
+  border: 1px solid hsl(0, 0%, 90%);
+  width: 70%;
+}
+
+.faq__accordion-item {
+  border-top: 1px solid hsl(0, 0%, 80%);
+}
+
+.faq__accordion-item:first-child {
+  border-top: none;
+}
+
+.faq__accordion-question,
+.faq__accordion-answer {
+  padding: 14px 0;
+  text-align: center;
+}
+
+.faq__accordion {
+  background-color: hsl(0, 0%, 90%);
+
+  overflow: scroll;
+}
+
+.faq__accordion.current {
+  height: 50px;
+  padding: 14px 0;
+}
+
+.faq__accordion-answer {
+  /* height: 100%; */
+}
