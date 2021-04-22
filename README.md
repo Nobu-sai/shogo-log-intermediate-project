@@ -14,6 +14,8 @@
 
 ## Components
 ### Block
+#### Button
+#### Form
 ### Elements
 #### faq__accordion
 
@@ -94,11 +96,15 @@ Inside a section
 
 # Components
 ## Blocks
-Button
+### Button
   <div class="button">
     What it is
     : Has the styling for all three buttons. 
 
+### Form
+.form__element
+  = The DIRECT Children Elements of the .form 
+ 
 ## Elements
 
 ### faq__accordion 

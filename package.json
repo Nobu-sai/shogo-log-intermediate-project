@@ -1,0 +1,19 @@
+{
+  "name": "shogo-log-intermediate",
+  "description": "* Explanations for each functionality (like logic) in Components section.  # TOC ## Information ### Used Plugins ## Styles  ### class Attribute Naming ### File ### Font Family ### Font Size #### By roles #### By class  ### Properties ### Spacing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nobu-sai/shogo-log-intermediate-project.git"
+  },
+  "author": "Nobuya Saito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nobu-sai/shogo-log-intermediate-project/issues"
+  },
+  "homepage": "https://github.com/Nobu-sai/shogo-log-intermediate-project#readme"
+}

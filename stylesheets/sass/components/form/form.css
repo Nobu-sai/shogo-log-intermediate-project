@@ -1,0 +1,85 @@
+.form,
+.form__element,
+.form__submit-button,
+.form__input,
+.form__textarea {
+  margin-top: 32px;
+}
+
+.form__element:first-child {
+  margin-top: 0;
+}
+
+.form {
+  padding: 32px 48px;
+  width: 60%;
+  background-color: #fff;
+  color: #000;
+}
+
+.form__category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__necessity {
+  margin-left: 24px;
+  border-radius: 10px;
+  padding: 4px 8px;
+  background-color: #11558d;
+  color: #fff;
+}
+
+.alert {
+  color: red;
+}
+
+.form__concent .alert {
+  text-align: center;
+}
+
+.form__input,
+.form__textarea {
+  padding: 14px;
+  border: none;
+  background-color: #d9f7fc;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.form__input {
+  width: 70%;
+  /* height: 0px; */
+}
+
+.form__textarea {
+  width: 100%;
+  min-height: 150px;
+  resize: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.form__confirmation {
+  /* text-align: center; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__message {
+  margin-top: 14px;
+  display: none;
+  text-align: center;
+}
+/*# sourceMappingURL=form.css.map */

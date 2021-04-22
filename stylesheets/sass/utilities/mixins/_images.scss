@@ -1,0 +1,12 @@
+@mixin background-image($img-name) {
+  // .logo {
+  background-image: url(../../assets/img/#{$img-name}.png);
+  // From the Manifest File.
+  // }
+}
+
+// @function image($img-name) {
+//   @return url(../../assets/img/#{$img-name}.png);
+// }
+
+// $Variable: url(../../assets/img/#{$img-name}.png);

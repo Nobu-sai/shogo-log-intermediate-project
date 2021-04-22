@@ -1,0 +1,69 @@
+.top {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  overflow: visible;
+}
+
+.top__item {
+  margin-bottom: 10%;
+  /* flex: 1; */
+  width: 30%;
+  /* height: 60%; */
+  z-index: 10;
+}
+
+.top__item_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.top__item_left .top-title {
+  width: 100%;
+  font-size: 32px;
+}
+
+.top__item_left .top-title__sub {
+  margin-top: 24px;
+  width: 70%;
+  /* font-size: 18px; */
+}
+
+.top__item_left .button {
+  margin-top: 24px;
+}
+
+.main-img {
+  /* margin-bottom: 10%; */
+  /* width = 30% as .top__item */
+  height: 500px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.circle-img-container {
+  position: absolute;
+  top: -25%;
+  right: -30%;
+  width: 100%;
+  height: 100%;
+}
+
+.circle-img {
+  width: 100%;
+  /* min-width: 700px; */
+  height: 100%;
+  /* min-height: 700px; */
+  background-image: url("../../assets/img/circle.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
